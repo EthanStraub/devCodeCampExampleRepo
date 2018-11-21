@@ -1,0 +1,26 @@
+body {
+  background-color: yellow;
+}
+h1 {
+  color: blue;
+}
+
+.Test_class {
+  color: green;
+}
+
+.Fontsize_class {
+  font-size: 13px;
+}
+
+#Test_id {
+  color:purple;
+}
+
+.First_class {
+  font-style: italic;
+}
+
+.Second_class {
+  
+}

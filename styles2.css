@@ -1,0 +1,72 @@
+.a {
+  background-color: red;
+  font-size: 60px !important;
+}
+.b {
+  background-color: maroon;
+  padding: 15px;
+}
+.c {
+  background-color: #990033;
+  padding: 15px;
+}
+.d {
+  background-color: #cc3300;
+  font-size: 30px !important;
+  padding: 15px;
+}
+.e {
+  background-color: #993333;
+  padding: 15px;
+  font-weight: lighter !important;
+  color: black !important;
+}
+.f {
+  background-color: #cc3300;
+  padding: 15px
+}
+
+[class*="col-"] {
+  font-family: "Courier New";
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border: 4px double black;
+}
+
+.row:after {
+  content:"";
+  clear:both;
+  display: block;
+}
+
+img {
+   border:3px solid black;
+}
+
+.biggerfont {
+  font-size:25px !important
+}
+
+body {
+    margin:0;
+    padding:0;
+    background-color: black;
+    width: 100%;
+    box-sizing:content-box !important;
+}
+
+.container {
+  max-width: 100% !important;
+}
+/* p:hover, img:hover {
+    background-color: yellow;
+}
+*/
+div:hover {
+  background-color: #ff6600;
+}
+
+#carouselExampleControls {
+  
+}
